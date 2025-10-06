@@ -3,7 +3,7 @@ name: Create Release on Tag
 on:
   push:
     tags:
-      - 'v*.*.*'   # Запускається при пуші тегів формату v1.0.0, v1.0.1 тощо
+      - 'v*.*.*'   # Запускається при пуші тегів формату v1.0.0 - vX.X.X
 
 jobs:
   create-release:
